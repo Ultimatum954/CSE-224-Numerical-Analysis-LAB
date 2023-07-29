@@ -19,3 +19,5 @@ allMarks([4,6],[1:2:3]) % outputs only columns 1 and 3 of row 4 and 6
 allMarks([4,6],[1:3]) == allMarks([4,6],[1,2,3]) % same work; outputs row 4 and 6's first three columns 
 
 mean(allMarks(:,:)) % calculates the average values of each COLUMN
+
+allMarks/10 % divides every value throughout the matrix by 10
