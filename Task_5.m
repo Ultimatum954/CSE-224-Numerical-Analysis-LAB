@@ -1,3 +1,6 @@
+%how to make a function
+%conditions : has to be in the same directory, has to be the same name as file
+
 function a=Num_Lab_2(n)
   i=0;
   A=[0,1,1];
