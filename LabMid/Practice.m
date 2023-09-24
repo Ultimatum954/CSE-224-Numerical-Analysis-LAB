@@ -14,6 +14,8 @@ else
   disp('Your number is zero')
 end
 
+
+
 2.
 clear all
 clc
@@ -26,3 +28,22 @@ elseif x<0 || y<0
 else
   disp('Rest of conditions')
 end
+
+
+
+3.
+clear all
+clc
+for i=1:1:10
+  disp(i);
+  disp('HI ');
+end
+
+
+
+4.
+function [A] = areaofsq(x)
+  A= x*x;
+  fprintf('Area of Square is %d\n',A);
+end
+
